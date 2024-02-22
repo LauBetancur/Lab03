@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nanum Gothic", sans-serif;
+}
+body{ 
+    background-image: url(https://img.freepik.com/vector-premium/fondo-degradado-purpura-borroso-suave-abstracto-banner-sitio-web-diseno-decorativo-tarjeta-papel_120819-485.jpg
+    );
+    width: 100vw;
+    height: 100vh;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800rem;
+    font-style: normal;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  
+
+}
+.card{ 
+    background-color: white;
+    height: 36rem;
+    width: 21rem;
+    border-radius: 10px;
+    margin: 15px;
+
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+
+}
+
+#Login{ 
+    margin: 20px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800rem;
+    font-style: normal;
+    font-size: 25px;
+
+  }
+.line{ 
+    border-bottom: 1px solid black;
+}
+
+.inpt {
+    border: 0;
+    margin-bottom: 5px;
+}
+
+.img{
+    height: 30px;
+    width: 30 px;
+    border-radius: 50%;
+}
+
+.icon{
+height: 10px;
+width: 10px;
+opacity: 50%;
+}
+
+.button{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    width: 15vw;
+    height: 5vh;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+
+}
+.fp{ 
+    text-align: right;
+    font-size: 10px;
+    opacity: 60%;
+    margin: 10px;
+  
+}
+
+.foot{ 
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    font-size: 12px;
+}
+.sign{ 
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    font-style:oblique;
+
+    font-size: 12px;
+}
+
+
